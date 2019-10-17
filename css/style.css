@@ -1,0 +1,362 @@
+/* CSS FOR GOOD RESULTS MINISTRIES WEBSITE */
+
+/* ------------CSS AFFECTING ENTIRE WEBSITE------------ */
+
+/* adjust font for website */
+body, div, h1, p {
+	font-family: Oxygen;
+	color: rgb(51,51,51);
+	
+}
+
+/* ------------END OF CSS AFFECTING ENTIRE WEBSITE------------ */
+
+
+
+/* ------------CSS AFFECTING HEADER OF ALL PAGES------------ */
+
+header#headerAll {		
+	height: 100px;
+}
+
+
+@media (min-width: 601px) {
+	header#headerAll img#logo-large {
+		height: 70px;
+	}
+}
+
+@media (max-width: 600px) {
+	header#headerAll img#logo-large {
+		height: 55px;
+	}
+}
+
+header#headerAll nav#nav-primary {
+	width: 55%;	
+}
+
+header#headerAll nav#nav-primary div#nav-expanded a {
+	width: 23%;
+	font-weight: bold;
+	color: rgb(89,70,156);
+	border-left: 1px solid rgb(89,70,156);
+}
+
+header#headerAll nav#nav-primary div#nav-collapsed {
+	max-height: 120px;
+	max-width:  103px;
+	position: relative;
+	right: 0px;
+}
+
+header#headerAll nav#nav-primary div#nav-collapsed a {
+	text-align: right;
+	font-weight: bold;
+	color: rgb(255,255,255);
+	background-color: rgb(89,70,156);
+	background-color: rgba(89,70,156,.5);
+	border-bottom: 1px solid rgb(77,77,77);
+}
+
+/* ------------END OF CSS AFFECTING HEADER OF ALL PAGES------------ */
+
+
+
+/* ------------CSS AFFECTING FOOTER OF ALL PAGES------------ */
+footer#site {
+	background-color: rgb(89,70,156);
+	background-image: linear-gradient(to bottom right, rgb(89,70,156), rgb(255,255,255));
+}
+
+footer#site h3{
+	font-weight: bold;
+	color: rgb(255,255,255);
+}
+
+footer#site h5 {
+	font-weight: bold;
+	color: rgb(255,255,255);
+	margin: 0px;
+}
+
+footer#site p {
+	color: rgb(255,255,255);
+	line-height: 1.3;
+	margin: 0px;
+}
+
+footer#site a {
+	text-decoration: none;
+}
+
+/* ------------END OF CSS AFFECTING FOOTER OF ALL PAGES------------ */
+
+
+
+/* ------------CSS AFFECTING SECTIONS OF HOME PAGE------------ */
+
+section#ministryPurpose  {
+	position: relative;
+	border-top: 1px solid rgb(89,70,156);
+	border-bottom: 1px solid rgb(89,70,156);
+	background-image: linear-gradient(to bottom right, rgb(255,255,255), rgb(89,70,156));
+}
+
+section#ministryPurpose img#smiles {
+	width: 100%;
+}
+
+@media (min-width: 601px) {
+	section#ministryPurpose img#ministryPurpose_helpingNeighbors {
+		position: absolute;
+		top: 7%;
+		left: 7%;
+		width: 20%;
+	}
+}
+
+@media (max-width: 600px) {
+	section#ministryPurpose img#ministryPurpose_helpingNeighbors {
+		position: absolute;
+		top: 20%;
+		left: 7%;
+		width: 24%;
+	}
+}
+
+@media (min-width: 601px) {
+	section#ministryPurpose img#ministryPurpose_strengtheningCommunities {
+		position: absolute;
+		bottom: 7%;
+		right: 7%;
+		width: 25%;
+	}
+}
+
+@media (max-width: 600px) {
+	section#ministryPurpose img#ministryPurpose_strengtheningCommunities {
+		position: absolute;
+		bottom: 20%;
+		right: 7%;
+		width: 29%;		
+	}
+}
+
+section#options {
+	background-color: rgb(46,49,146);
+}
+
+section#options div.primary {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: rgb(255,255,255);
+	border: 5px solid rgb(46,49,146);
+}
+
+@media (min-width: 601px) {
+	section#options div.primary {
+		min-height: 500px;
+	}
+}
+
+@media (max-width: 600px) {
+	section#options div.primary {
+		min-height: 400px;
+	}
+}
+
+/* adjust size of small logo on home page */
+section#options img#logo-small {
+	width: 150px;
+}
+
+section#options h4 {
+	color: rgb(89,70,156);
+}
+
+section#options button {
+	font-family: Oxygen;
+	font-weight: bold;
+	color: rgb(255,255,255);
+	background-color: rgb(89,70,156);
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+section#options button a:link, section#options button a:visited  {
+	text-decoration: none;
+}
+
+/* ------------END OF CSS AFFECTING SECTIONS OF HOME PAGE------------ */
+
+
+
+/* ------------CSS AFFECTING SECTIONS OF OTHER PAGES------------ */
+
+section#aboutIntro {
+	border-top: 1px solid rgb(89,70,156);
+	border-bottom: 1px solid rgb(89,70,156);
+	background-image: linear-gradient(to bottom right, rgb(255,255,255), rgb(89,70,156));
+}
+
+section#about h1 {
+	font-weight: bold;
+	color: rgb(46,49,146);
+}
+
+@media (min-width: 601px) {
+	section#about h1 {
+		text-align: left;
+	}
+}
+
+@media (max-width: 600px) {
+	section#about h1 {
+		text-align: center;
+	}
+}
+
+section#about span {
+	font-weight: bold;
+}
+
+section#about p {
+	text-align: justify;
+}
+
+section#about img#house-verseScripture {
+	height: 300px;
+	width: auto;
+}
+
+section#eventsIntro {
+	border-top: 1px solid rgb(89,70,156);
+	border-bottom: 1px solid rgb(89,70,156);
+	background-image: linear-gradient(to bottom right, rgb(255,255,255), rgb(89,70,156));
+}
+
+section#events h1, section#events span {
+	font-weight: bold;
+	color: rgb(46,49,146);
+}
+
+@media (min-width: 601px) {
+	section#events h1 {
+		text-align: left;
+	}
+}
+
+@media (max-width: 600px) {
+	section#events h1 {
+		text-align: center;
+	}
+}
+
+section#events ul {
+	list-style-type: none;
+}
+
+section#events div.text {
+	height: 175px;
+	border-top: 5px solid rgb(111,175,237);
+	border-bottom: 5px solid rgb(111,175,237);
+	background-color: rgb(255,255,255);
+	
+}
+
+section#events img#gardening, section#events img#discovering {
+	width: 100%;
+}
+
+section#events img#gardening {
+	border-top: 5px solid rgb(111,175,237);
+}
+
+section#events img#discovering {
+	border-bottom: 5px solid rgb(111,175,237);
+}
+
+section#eventsAddlText {
+	background-color: rgb(46,49,146);
+}
+
+section#eventsAddlText h3, section#eventsAddlText h5 {
+	font-weight: bold;
+	color: rgb(255,255,255);
+}
+
+section#eventRegistration div.eventRegistrationForm {
+	border-top: 10px solid rgb(89,70,156);
+	border-bottom: 10px solid rgb(89,70,156);
+	background-color: rgb(255,255,255);
+}
+
+section#eventRegistration form#eventRegistrationForm h3, section#eventRegistration form#eventRegistrationForm h5,
+section#eventRegistration form#eventRegistrationForm p, section#eventRegistration form#eventRegistrationForm label {
+	font-weight: bold;
+}
+
+section#eventRegistration form#eventRegistrationForm h3, section#eventRegistration form#eventRegistrationForm h5 {
+	color: rgb(89,70,156);
+}
+
+section#eventRegistration form#eventRegistrationForm input#submit {
+	font-family: Oxygen;
+	font-weight: bold;
+	color: rgb(255,255,255);
+	background-color: rgb(89,70,156);
+	margin: 15px;
+}
+
+section#joinIntro {
+	border-top: 1px solid rgb(89,70,156);
+	border-bottom: 1px solid rgb(89,70,156);
+	background-image: linear-gradient(to bottom right, rgb(255,255,255), rgb(89,70,156));
+}
+
+section#join h1 {
+	font-weight: bold;
+	color: rgb(46,49,146);
+}
+
+@media (min-width: 601px) {
+	section#join h1 {
+		text-align: left;
+	}
+}
+
+@media (max-width: 600px) {
+	section#join h1 {
+		text-align: center;
+	}
+}
+
+section#joinAddlText h3 {
+	font-weight: bold;
+}
+
+section#volunteerRegistration div.volunteerRegistrationForm {
+	border-top: 10px solid rgb(89,70,156);
+	border-bottom: 10px solid rgb(89,70,156);
+	background-color: rgb(255,255,255);
+}
+
+section#volunteerRegistration form#volunteerRegistrationForm h3, section#volunteerRegistration form#volunteerRegistrationForm h5,
+section#volunteerRegistration form#volunteerRegistrationForm p, section#volunteerRegistration form#volunteerRegistrationForm label {
+	font-weight: bold;
+}
+
+section#volunteerRegistration form#volunteerRegistrationForm h3, section#volunteerRegistration form#volunteerRegistrationForm h5 {
+	color: rgb(89,70,156);
+}
+
+section#volunteerRegistration form#volunteerRegistrationForm input#submit {
+	font-family: Oxygen;
+	font-weight: bold;
+	color: rgb(255,255,255);
+	background-color: rgb(89,70,156);
+	margin: 15px;
+}
+
+/* ------------END OF CSS AFFECTING SECTIONS OF OTHER PAGES------------ */
